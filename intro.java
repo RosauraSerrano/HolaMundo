@@ -1,4 +1,4 @@
-public class holaMundo {
+public class intro {
 
 	public static void main(String[] args) {	//Esto no le de tanta importancia, es rutinario de momento, 
         //ya conforme avance en programacion con java notará que sí es importante, de momento no
@@ -12,11 +12,12 @@ public class holaMundo {
         // Importante siempre cuando se abren llaves { } tiene que cerrarlas porque eso indica que ese bloque de codigo ya cerró
         //para hacer funciones o formulas o lo que sea practicamente se utilizan siempre variables, por ejemplo una suma
         //declaracion de variables
-        int numeroA = 23;
-        int numeroB = 37;
+        int numeroA = 0;
+        int numeroB = 5;
         // int es el tipo de dato, numeroA es el nombre que le asignamos a la variable, luego con = se da el valor de la variable 
         //importante, si ve cada linea de codigo se cierra con ;
-
+        //
+        
         //Siguiendo con la suma
 
         int resultado = numeroA + numeroB;
@@ -38,6 +39,11 @@ public class holaMundo {
 
         if(resultado > 50){
             System.out.println("La suma es mayor que 50");
+        }else if(resultado == 0){
+            System.out.println("la suma es igual a 0");
+
+        }else{
+            System.out.println("No cumple ninguna condicion");
         }
          //se lee: si la variable resultado es mayor que 50 se ejecuta lo que está dentro del codigo
 
